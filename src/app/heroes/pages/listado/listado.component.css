@@ -1,0 +1,14 @@
+
+
+.flex-container{
+  /* display: flex;
+  flex-wrap: wrap;
+  align-content:flex-start;
+  width: 100%; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, 200px); */
+  gap: 20px;
+}
+

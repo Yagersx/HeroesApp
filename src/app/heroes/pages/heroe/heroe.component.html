@@ -1,0 +1,11 @@
+<div class="spinner" *ngIf="!heroe; else divHeroe">
+  <mat-spinner></mat-spinner>
+
+</div>
+
+
+<ng-template #divHeroe>
+  {{ heroe | json }}
+
+  <app-heroe-tarjeta-component [heroe]="heroe"></app-heroe-tarjeta-component>
+</ng-template>
