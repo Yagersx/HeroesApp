@@ -1,0 +1,11 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
