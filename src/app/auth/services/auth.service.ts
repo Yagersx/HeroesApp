@@ -19,6 +19,8 @@ export class AuthService {
 
   constructor(private http:HttpClient) { }
 
+
+
   verificarAutenticacion(): Observable<boolean> {
 
     if(!localStorage.getItem('id')){
